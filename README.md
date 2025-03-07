@@ -8,3 +8,6 @@ Why this question is effective:
 * Efficiency: It encourages them to think about efficient ways to perform multiplication.
 * Practical Application: Bit shifting is a fundamental technique used in low-level programming and hardware design.
 * Decomposition: the question naturally decomposes into two parts. First, explaining the theory, and second, applying that theory to a practical problem.
+
+
+Explanation: Every Binary number is an exponenential with the base 2, so multiply a number by 2^n is the same as left shifting a Binary number the same amount because you are just changing the exponent on the base 2, which is equivalent to a slot in binary.
