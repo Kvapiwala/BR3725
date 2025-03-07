@@ -1,5 +1,11 @@
-def multiply(n):
-    #Add the code and an explanation on how to 
-    #multiply a number by 2 using bitshift
-    return n
 
+num = int(input("enter a number: "))
+num_bin = bin(num)[2:]
+print(num_bin)
+bits = int(input("enter a single digit number to shift by: "))
+shift = num * (2** bits)
+shift = bin(shift)[2:]
+new_num = int(shift, 2)
+
+print(shift)
+print(new_num)
